@@ -58,7 +58,7 @@ sqlite3 chrome_history.db3.
 All queries are in `/queries/all_queries.sql`
 
 Run with:
-```bash
+
 sqlite3 chrome_history.db < queries/all_queries.sql
 
 Create Final Evidence Package:
