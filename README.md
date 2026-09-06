@@ -54,17 +54,21 @@ Suspect allegedly provided fraudulent TXID `517b2156914944339a96137ad8978408ea52
 -----
 bash
 sqlite3 chrome_history.db3. 
-# Run Queries:
+### Run Queries:
+All queries are in `/queries/all_queries.sql`
 
-# All queries are in /queries/all_queries.sql
-Run with:bashsqlite3 chrome_history.db < queries/all_queries.sql4. 
-Create Final Evidence Package: bashzip -r evidence_package.zip chrome_history.db proof_of_payment.png report/
-sha256sum evidence_package.zipTimestamp Conversion:sqldatetime(visit_time/1000000 - 11644473600, 'unixepoch')Chrome/WebKit time = microseconds since 1601-01-01 00:00:00 UTC. All times reported in UTC.
+Run with:
+```bash
+sqlite3 chrome_history.db < queries/all_queries.sql
 
-**1. Verify Evidence Integrity:**
-``
+Create Final Evidence Package:
+
+1. Verify Evidence Integrity:
 sha256sum chrome_history.db
 sha256sum proof_of_payment.png
+
+zip -r evidence_package.zip chrome_history.db proof_of_payment.png report/
+sha256sum evidence_package.zip
 
 **Timestamp Conversion Method:**
 Chrome/WebKit time = microseconds since `1601-01-01 00:00:00 UTC` 
