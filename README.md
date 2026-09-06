@@ -137,3 +137,16 @@ See: [`/queries/all_queries.sql`](queries/all_queries.sql)
 
 ### B. Timeline Export
 See: [`/exports/Timeline_Craigslist.csv`](exports/Timeline_Craigslist.csv)
+
+## 8. LEGAL DISCLAIMER & CHAIN OF CUSTODY
+
+**Disclaimer:**  
+This report and associated evidence are created for educational purposes as part of CIP-B105-CS1-C11_26_DFIT_17300.  
+The data in `chrome_history.db` is simulated/anonymized for academic analysis. No real personal information is included.
+
+
+**Integrity Verification:**
+All hashes were generated using `sha256sum` and are recorded to ensure evidence has not been altered.
+
+**Ethical Statement:**
+This analysis follows standard digital forensic procedures. The techniques described are for lawful investigation and academic study only.
