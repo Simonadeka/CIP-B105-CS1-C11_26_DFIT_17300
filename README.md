@@ -48,15 +48,6 @@ Suspect allegedly provided fraudulent TXID `517b2156914944339a96137ad8978408ea52
 3. **sha256sum** - Hashing
 4. **zip** - Evidence packaging
 
-### 3.1 Commands Used
-## Open Database for Analysis:
-
------
-bash
-sqlite3 chrome_history.db3. 
-### Run Queries:
-All queries are in `/queries/all_queries.sql`
-
 
 **Timestamp Conversion Method:**
 Chrome/WebKit time = microseconds since `1601-01-01 00:00:00 UTC` 
