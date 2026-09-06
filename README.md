@@ -147,6 +147,4 @@ The data in `chrome_history.db` is simulated/anonymized for academic analysis. N
 
 **Integrity Verification:**
 All hashes were generated using `sha256sum` and are recorded to ensure evidence has not been altered.
-
-**Ethical Statement:**
 This analysis follows standard digital forensic procedures. The techniques described are for lawful investigation and academic study only.
