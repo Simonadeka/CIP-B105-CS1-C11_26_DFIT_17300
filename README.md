@@ -151,8 +151,10 @@ All times reported in UTC.
 ---
 
 ## 7. APPENDIX
+
 ### A. SQL Queries
-See `/queries/all_queries.sql`
+All forensic queries used to generate Figures 1-5.
+See: [`/queries/all_queries.sql`](queries/all_queries.sql)
 
 ### B. Timeline Export
-See `/exports/Timeline_Craigslist.csv`
+See: [`/exports/Timeline_Craigslist.csv`](exports/Timeline_Craigslist.csv)
