@@ -1,0 +1,5 @@
+Stage,Time_UTC,Action,Evidence,Transition,Source
+1,2022-04-19 14:48:22,Craigslist Post Created,Fig 2A,3_FORM_SUBMIT,craigslist.org
+2,2022-04-19 14:52:10,Gmail Email Sent,Fig 3A,1_TYPED,mail.google.com
+3,2022-04-19 14:53:45,Fake Receipt Downloaded,Fig 4A,0_LINK,imgur.com
+4,2022-04-19 14:55:20,Blockchain TXID Check,Fig 5A,1_TYPED,blockchain.com
