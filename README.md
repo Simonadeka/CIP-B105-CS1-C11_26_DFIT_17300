@@ -1,11 +1,16 @@
 # Craigslist Bitcoin Scam Forensic Analysis
-Case ID: CIP-B105-CS1-C11_26_DFIT_17300 
-Analyst: Simon Friday Adeka
-*Date of Analysis: 2026-09-06 
-Evidence Date: 2022-04-19
-Course: Digital Forensics Investigation
+
+| Field | Details |
+| --- | --- |
+| **Case ID** | `CIP-B105-CS1-C11_26_DFIT_17300` |
+| **Analyst** | `Simon Friday Adeka` |
+| **Date of Analysis** | `2026-09-06` |
+| **Evidence Date** | `2022-04-19` |
+| **Course** | `Digital Forensics Investigation` |
 
 ---
+
+
 
 ## 1. EXECUTIVE SUMMARY
 
